@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../reducers/counterReducer';
+import counterReducer from '../reducers/counterreducer';
 import todoReducer from '../reducers/todoReducer';
 import themeReducer from '../reducers/themeReducer';
 
