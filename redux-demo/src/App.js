@@ -5,11 +5,15 @@ import ThemeToggler from './components/ThemeToggler';
 
 const App = () => {
   return (
-    <div style={{ color: 'gold', backgroundColor: 'black', padding: '20px' }}>
+    <div style={{ color: 'gold', backgroundColor: 'black', padding: '20px', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+      
       <h1>Redux Demo App</h1>
-      <Counter />
-      <TodoList />
-      <ThemeToggler />
+      <div style={{display: 'flex', flexDirection:'column'}}>
+        <Counter />
+        <TodoList />
+        <ThemeToggler />
+      </div>
+      
       
     </div>
   );
